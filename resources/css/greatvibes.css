@@ -1,0 +1,25 @@
+@font-face {
+  font-family: greatvibes;
+  src: url(../fonts/greatvibes.otf);
+}
+
+.navbar-call{
+  
+  font-family: greatvibes;
+  font-size: 16pt;
+  color:white;
+  text-decoration:none;
+}
+
+.navbar a:link {
+  text-decoration:none;
+  color: white;
+}
+
+.text-motivation{
+  font-family: greatvibes; 
+  font-size: 24pt;
+  color:white; 
+  margin: 6px; 
+}
+

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: chopinscript;
+  src: url(../fonts/chopinscript.otf);
+}
+
+.navbar-call{
+  
+  font-family: chopinscript;
+  font-size: 16pt;
+  color:white;
+  text-decoration:none;
+}
+
+.navbar a:link {
+  text-decoration:none;
+  color: white;
+}
+
+.text-motivation{
+  font-family: chopinscript; 
+  font-size: 24pt;
+  color:white; 
+  margin: 6px; 
+}
+

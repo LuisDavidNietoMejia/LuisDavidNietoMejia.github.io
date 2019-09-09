@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Bold.otf);
+}
+
+.navbar-call{
+  
+  font-family: Montserrat;
+  font-size: 16pt;
+  color:white;
+  text-decoration:none;
+}
+
+.text-herramientas{
+  font-family: Montserrat; 
+  font-size: 20pt;
+  color:white; 
+  margin: 6px; 
+}
+
+.checkbox-font{
+  font-family: Montserrat; 
+  font-size: 12pt;
+  color:white; 
+}
+
+.text-pero{
+  font-family: Montserrat;
+  font-size: 20pt;
+  color: rgb(150, 9, 254);
+  text-decoration:none;
+}
+
+.btn-submit-need{
+  font-family: Montserrat;
+  font-size: 20pt;
+  background-color: rgb(234, 182, 7);
+  color:white;
+}
+
+.btn-submit-need{
+  font-family: Montserrat;
+  font-size: 20pt;
+  text-decoration: none;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(234, 120, 7);
+  color:white;
+  
+}
+.btn-submit-need:hover{
+  color: black;
+  text-decoration: none;
+}
+
+
+.text-marear{
+  font-family: Montserrat;
+  font-size: 20pt;
+  color: rgb(227, 150, 6);
+  text-decoration:none;
+  
+}
+
+.text-enfoco{
+  font-family: Montserrat;
+  font-size: 16pt;
+  color:white;
+  text-decoration:none;
+  
+}
+
+.text-necesitas{
+  font-family: Montserrat;
+  font-size: 16pt;
+  color:rgb(227, 150, 6);;
+  text-decoration:none;
+  
+}
+
+.navbar a:link {
+  text-decoration:none;
+  color: white;
+}
+
+.text-motivation{
+  font-family: Montserrat; 
+  font-size: 24pt;
+  color:white; 
+  margin: 6px; 
+}
+
+.text-motivation2{
+  font-family: Montserrat; 
+  font-size: 30pt;
+  color:black; 
+  margin: 6px; 
+}
+
+.text-button{
+  font-family: Montserrat; 
+  font-size: 18pt;
+  color:white; 
+}
+
+.form-control{
+  height: 60px!important;
+  }
