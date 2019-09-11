@@ -4,8 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+ .visibility-contact-none{
+    display: none;    
+ }
 
- 
+ .visibility-contact-show{
+    display: flex;    
+ }
+
  @media (min-width: 576) and (max-width: 768) {
    
     .container a img {
@@ -25,6 +31,8 @@
    
        
 }
+
+
 
 .checkbox-inline{
     padding-top: 0.5rem;
@@ -84,8 +92,19 @@ header.masthead h1 {
 }
 
 .showcase .showcase-text-custom {
-    padding: 3rem
+    padding: 3rem;   
 }
+
+.showcase-text-custom .text-motivation2{
+    margin-top:-26px;
+}
+
+.showcase-text-true .text-motivation2{
+    margin-top:-16px;
+}
+
+
+
 .showcase .showcase-img {
     min-height: 30rem;
     background-size: cover
