@@ -1,0 +1,112 @@
+  .botones {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #separar {
+    padding: 3%;
+    display: inline-block;
+  }
+  
+  .titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #333333;
+  }
+  
+  .button-overlay-hor {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+  }
+  .button-overlay-hor:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  }
+  .button-overlay-hor:hover:before {
+  width: 100%;
+  }
+  
+  .button-overlay-ver {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+  }
+  .button-overlay-ver:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  } 
+  .button-overlay-ver:hover:before {
+    height: 100%;
+  }
+  
+  .button-refill {
+    color: white !important;
+    border: 2px solid;
+    border-color: #318aac;
+    transition: all 1s ease;
+    position: relative;
+  }
+  .button-refill:hover {
+    background: rgb(67, 67, 70);
+    color:black;
+  }
+  
+  .button-flash {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+  }
+  .button-flash:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+  }
+  
+  .button-flash-reverse {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    position: relative;
+    border: 2px solid #318aac;
+    outline: 1px solid;
+    outline-color: rgba(49, 138, 172, 0.4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .button-flash-reverse:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    border-shadow: 
+  }
