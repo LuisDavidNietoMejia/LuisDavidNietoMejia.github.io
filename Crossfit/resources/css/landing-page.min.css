@@ -32,12 +32,32 @@
   
 } */
 
+@media (min-width: 366px) {
+
+    div .text-you-know{
+        text-align: left;
+    }
+    div .link-button-taste{
+        text-align: center;
+    }
+    div .link-button-taste-reverse{
+        text-align: center;
+    }
+
+ }
 
 @media (min-width: 576px) {
 
     div .text-you-know{
         text-align: left;
     }
+    div .link-button-taste{
+        text-align: right;
+    }
+    div .link-button-taste.reverse{
+        text-align: left;
+    }
+   
 
  }
 
@@ -46,15 +66,30 @@
     div .img-crossfit{
         margin-top: 100px;
     }
-    div .text-you-know{
-        text-align: center;
+    div .link-button-taste{
+        text-align: right;
     }
-
+    div .link-button-taste.reverse{
+        text-align: left;
+    }
+    div .crossfigther-contacto-header{
+        margin-top: 140px;
+    }
  }
 @media (min-width: 1200px) { 
     
     div .img-crossfit{
         margin-top: 100px;
+    }
+
+    div .link-button-taste{
+        text-align: right;
+    }
+    div .link-button-taste.reverse{
+        text-align: left;
+    }
+    div .crossfigther-contacto-header{
+        margin-top: 140px;
     }
 
 }
