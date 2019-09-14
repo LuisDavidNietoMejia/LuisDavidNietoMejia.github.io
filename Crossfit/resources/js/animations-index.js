@@ -1,7 +1,5 @@
-var widthGlobal = screen.width;
 
-$('#email-input-header').val(widthGlobal);
-   
+
    $("#button-email-header").click(function () {
 
       var empty = $('#email-input-header').val();
