@@ -67,9 +67,7 @@
       $('#block-9').each(function () {
         animationScrollLeft('#block-9');
       });
-
-     
-
+    
       $('#block-12').each(function () {
         animationScrollLeft('#block-12');
       });
@@ -114,21 +112,9 @@
       $('#block-23').each(function () {
         animationScrollRight('#block-23');
       });
-
-      $('#block-24').each(function () {
-        animationScrollLeft('#block-24');
-      });
-
-      $('#block-25').each(function () {
-        animationScrollLeft('#block-25');
-      });
-
+     
       $('#block-26').each(function () {
         animationScrollLeft('#block-26');
-      });
-
-      $('#block-27').each(function () {
-        animationScrollLeft('#block-27');
       });
 
       $('#block-28').each(function () {

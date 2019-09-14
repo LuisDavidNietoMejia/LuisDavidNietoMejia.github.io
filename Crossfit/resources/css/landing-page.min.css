@@ -39,12 +39,21 @@
      #button-box-header{
         display: none;
      }
-     .img-crossfit{
-         
+     div .text-crossfigther{
+         font-size: 30pt;
      }
-    
-     
+     div .text-crossfigther-reverse{
+        font-size: 30pt;
+     }
 
+     .outlinenone {
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        outline: none;
+        background-color: rgba(218, 214, 255, 0.61);
+        border: 0;
+        font-size: 16pt;
+      }
+     
 }
 
 @media (min-width: 569px) and (max-width: 575px) {

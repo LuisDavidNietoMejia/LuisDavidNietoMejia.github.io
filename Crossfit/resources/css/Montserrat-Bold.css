@@ -214,13 +214,7 @@
   background-color: #eee;
   border: 0;
 }
-.outlinenone {
-  font-family: 'Arial Narrow', Arial, sans-serif;
-  outline: none;
-  background-color: rgba(218, 214, 255, 0.61);
-  border: 0;
-  font-size: 20pt;
-}
+
 .redondeadonorelieve {
   border-radius: 5px;
   border: 1px solid #39c;
