@@ -40,20 +40,22 @@
         display: none;
      }
      div .text-crossfigther{
-         font-size: 30pt;
+        font-size: 26pt;
      }
      div .text-crossfigther-reverse{
-        font-size: 30pt;
+        font-size: 26pt;
      }
 
      .outlinenone {
-        font-family: 'Arial Narrow', Arial, sans-serif;
-        outline: none;
-        background-color: rgba(218, 214, 255, 0.61);
-        border: 0;
-        font-size: 16pt;
+        font-size: 14pt;
       }
      
+      .showcase .showcase-text-custom {
+        padding: 2rem;   
+      }
+      .btn-more-info{
+          font-size: 16pt;
+      }
 }
 
 @media (min-width: 569px) and (max-width: 575px) {
@@ -67,7 +69,9 @@
     div .link-button-taste-reverse{
         text-align: center;
     }
-
+    #button-box-header{
+        display: none;
+     }
     #email-input-header{
        font-weight: bold;
        font-size: 16pt;
@@ -80,7 +84,17 @@
         font-weight: bold;
         font-size: 16pt;
      }
+     .showcase .showcase-text-custom {
+        padding: 3rem;   
+      }
 
+     .outlinenone {
+        font-size: 20pt;
+      }
+
+      .btn-more-info{
+        font-size: 26pt;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -94,7 +108,9 @@
     div .link-button-taste-reverse{
         text-align: center;
     }
-
+    #button-box-header{
+        display: none;
+     }
     #email-input-header{
        font-weight: bold;
        font-size: 18pt;
@@ -108,12 +124,56 @@
         font-size: 18pt;
      }
 
+     .showcase .showcase-text-custom {
+        padding: 3rem;   
+      }
 
+      .outlinenone {
+        font-size: 22pt;
+      }
+      .btn-more-info{
+        font-size: 26pt;
+    }
 }
 
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+    div .text-you-know{
+        text-align: left;
+    }
+    div .link-button-taste{
+        text-align: center;
+    }
+    div .link-button-taste-reverse{
+        text-align: center;
+    }
+    #button-box-header{
+        display: none;
+     }
+    #email-input-header{
+       font-weight: bold;
+       font-size: 20xpt;
+    }
+    #name-input-header{
+        font-weight: bold;
+        font-size: 20pt;
+     }
+     #box-input-header{
+        font-weight: bold;
+        font-size: 20pt;
+     }
+
+     .showcase .showcase-text-custom {
+        padding: 3rem;   
+      }
+
+      .outlinenone {
+        font-size: 24pt;
+      }
+      .btn-more-info{
+        font-size: 28pt;
+    }
 
 }
 
@@ -131,7 +191,32 @@
     div .crossfigther-contacto-header{
         margin-top: 140px;
     }
+      
+    #email-input-header{
+        font-weight: bold;
+        font-size: 13pt;
+    }
+    #name-input-header{
+        font-weight: bold;
+        font-size: 13pt;
+    }
+    #box-input-header{
+        font-weight: bold;
+        font-size: 13pt;
+    }
 
+    .showcase .showcase-text-custom {
+        padding: 3rem;   
+    }
+
+    .outlinenone {
+        font-size: 22pt;
+    }
+    .btn-more-info{
+        font-size: 26pt;
+    }
+
+    
 }
 
 @media (min-width: 1200px) {  
@@ -149,13 +234,32 @@
     div .crossfigther-contacto-header{
         margin-top: 140px;
     }
+        
+    #email-input-header{
+        font-weight: bold;
+        font-size: 18pt;
+    }
+    #name-input-header{
+        font-weight: bold;
+        font-size: 18pt;
+    }
+    #box-input-header{
+        font-weight: bold;
+        font-size: 18pt;
+    }
+    .showcase .showcase-text-custom {
+        padding: 3rem;   
+    }
+
+    .outlinenone {
+        font-size: 22pt;
+    }
+    .btn-more-info{
+        font-size: 26pt;
+    }
+
 
 }
-
-
-
-
-
 
 
 .checkbox-inline{
@@ -213,10 +317,6 @@ header.masthead h1 {
 
 .showcase .showcase-text {
     padding: 3rem
-}
-
-.showcase .showcase-text-custom {
-    padding: 3rem;   
 }
 
 .showcase-text-custom .text-motivation2{

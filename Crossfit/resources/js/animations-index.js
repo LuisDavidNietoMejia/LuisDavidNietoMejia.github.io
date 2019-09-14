@@ -1,4 +1,6 @@
 
+alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
+
 
    $("#button-email-header").click(function () {
 
@@ -29,7 +31,7 @@
        var width = screen.width; 
       //  var height = screen.height;
         
-       if(width < 800){
+       if(width < 769){
         $("#button-box-phone").removeClass("visibility-contact-none");
         animationScrollLeft('#button-box-phone');
        }

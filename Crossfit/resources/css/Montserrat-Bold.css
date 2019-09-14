@@ -177,13 +177,17 @@
   color:#FC6F06; 
   margin: 6px; 
 }
+.outlinenone {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  outline: none;
+  background-color: rgba(218, 214, 255, 0.61);
+  border: 0;
+}
 
 .btn-more-info{
-  font-family: Montserrat; 
-  font-size: 24pt;
+  font-family: Montserrat;
   color: white; 
   background-color: #5202C4;
-  
 }
 
 .text-crossfigther{
