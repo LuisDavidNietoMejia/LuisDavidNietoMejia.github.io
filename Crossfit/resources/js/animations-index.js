@@ -1,5 +1,7 @@
-  
-    $("#button-email-header").click(function () {
+alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
+
+   
+   $("#button-email-header").click(function () {
 
       var empty = $('#email-input-header').val();
 
