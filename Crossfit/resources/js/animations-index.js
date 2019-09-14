@@ -6,7 +6,7 @@
       if (empty != "") {
         $('#block-contact-2').each(function () {
           $('#block-contact-1').hide();
-          $("#block-contact-2").removeClass("visibility-contact-none").addClass("visibility-contact-show");
+          $("#block-contact-2").removeClass("visibility-contact-none");
           animationScrollLeft('#block-contact-2');
         });
       } else {
@@ -22,8 +22,17 @@
       if (empty != "") {
         $('#block-contact-3').each(function () {
         $('#block-contact-2').hide();
-        $("#block-contact-3").removeClass("visibility-contact-none").addClass("visibility-contact-show");
-        animationScrollLeft('#block-contact-2');
+        $("#block-contact-3").removeClass("visibility-contact-none");
+        animationScrollLeft('#block-contact-3');
+ 
+       var width = screen.width; 
+      //  var height = screen.height;
+        
+       if(width < 800){
+        $("#button-box-phone").removeClass("visibility-contact-none");
+        animationScrollLeft('#button-box-phone');
+       }
+
       });
       } else {
         alert('Campo nombre vacio!')
@@ -34,29 +43,29 @@
 
     $(window).scroll(function () {
 
-      $('#block-1').each(function () {
-        animationScroll('#block-1');
-      });
+      // $('#block-1').each(function () {
+      //   animationScrollLeft('#block-1');
+      // });
 
       $('#block-2').each(function () {
-        animationScroll('#block-2');
+        animationScrollLeft('#block-2');
       });
 
       $('#block-3').each(function () {
-        animationScroll('#block-3');
+        animationScrollLeft('#block-3');
       });
 
-      $('#block-4').each(function () {
-        animationScroll('#block-4');
-      });
+      // $('#block-4').each(function () {
+      //   animationScrollLeft('#block-4');
+      // });
 
-      $('#block-5').each(function () {
-        animationScroll('#block-5');
-      });
+      // $('#block-5').each(function () {
+      //   animationScrollLeft('#block-5');
+      // });
 
-      $('#block-6').each(function () {
-        animationScroll('#block-6');
-      });
+      // $('#block-6').each(function () {
+      //   animationScrollLeft('#block-6');
+      // });
 
       $('#block-7').each(function () {
         animationScroll('#block-7');

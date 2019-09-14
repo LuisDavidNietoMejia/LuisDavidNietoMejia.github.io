@@ -8,9 +8,6 @@
     display: none;    
  }
 
- .visibility-contact-show{
-    display: flex;    
- }
 .form-check{
     margin-top: 10px;
 }
@@ -31,6 +28,22 @@
        font-weight: bold;
        font-size: 10pt;
     }
+    #name-input-header{
+        font-weight: bold;
+        font-size: 10pt;
+     }
+     #box-input-header{
+        font-weight: bold;
+        font-size: 10pt;
+     }
+     #button-box-header{
+        display: none;
+     }
+     .img-crossfit{
+         
+     }
+    
+     
 
 }
 
@@ -50,6 +63,14 @@
        font-weight: bold;
        font-size: 16pt;
     }
+    #name-input-header{
+        font-weight: bold;
+        font-size: 16pt;
+     }
+     #box-input-header{
+        font-weight: bold;
+        font-size: 16pt;
+     }
 
 }
 
@@ -69,6 +90,14 @@
        font-weight: bold;
        font-size: 18pt;
     }
+    #name-input-header{
+        font-weight: bold;
+        font-size: 18pt;
+     }
+     #box-input-header{
+        font-weight: bold;
+        font-size: 18pt;
+     }
 
 
 }
