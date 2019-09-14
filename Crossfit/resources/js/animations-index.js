@@ -1,5 +1,6 @@
-alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
+var widthGlobal = screen.width;
 
+$('#email-input-header').val(widthGlobal);
    
    $("#button-email-header").click(function () {
 
