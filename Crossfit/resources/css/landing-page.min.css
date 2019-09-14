@@ -15,24 +15,26 @@
     margin-top: 10px;
 }
 
- /* @media (min-width: 576) and (max-width: 768) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
    
-    .container a img {
+    div .text-you-know{
+        text-align: left;
+    }
+    div .link-button-taste{
         text-align: center;
     }
-    
-    
+    div .link-button-taste-reverse{
+        text-align: center;
+    }
+
+    #email-input-header{
+       font-weight: bold;
+       font-size: 10pt;
+    }
+
 }
 
-@media (min-width: 768) and (max-width: 992) {
-   
-    div .img-crossfit{
-        margin-top: 100px;
-    }
-  
-} */
-
-@media (min-width: 366px) {
+@media (min-width: 569px) and (max-width: 575px) {
 
     div .text-you-know{
         text-align: left;
@@ -44,24 +46,40 @@
         text-align: center;
     }
 
- }
+    #email-input-header{
+       font-weight: bold;
+       font-size: 16pt;
+    }
 
-@media (min-width: 576px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
 
     div .text-you-know{
         text-align: left;
     }
     div .link-button-taste{
-        text-align: right;
+        text-align: center;
     }
-    div .link-button-taste.reverse{
-        text-align: left;
+    div .link-button-taste-reverse{
+        text-align: center;
     }
-   
 
- }
+    #email-input-header{
+       font-weight: bold;
+       font-size: 18pt;
+    }
 
-@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
 
     div .img-crossfit{
         margin-top: 100px;
@@ -75,9 +93,11 @@
     div .crossfigther-contacto-header{
         margin-top: 140px;
     }
- }
-@media (min-width: 1200px) { 
-    
+
+}
+
+@media (min-width: 1200px) {  
+      
     div .img-crossfit{
         margin-top: 100px;
     }
@@ -93,6 +113,9 @@
     }
 
 }
+
+
+
 
 
 
