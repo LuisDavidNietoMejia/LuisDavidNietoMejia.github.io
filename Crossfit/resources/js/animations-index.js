@@ -46,9 +46,9 @@ $('#email-input-header').val(widthGlobal);
 
     $(window).scroll(function () {
 
-      // $('#block-1').each(function () {
-      //   animationScrollLeft('#block-1');
-      // });
+      $('#block-1').each(function () {
+        animationScrollLeft('#block-1');
+      });
 
       $('#block-2').each(function () {
         animationScrollLeft('#block-2');
@@ -57,18 +57,6 @@ $('#email-input-header').val(widthGlobal);
       $('#block-3').each(function () {
         animationScrollLeft('#block-3');
       });
-
-      // $('#block-4').each(function () {
-      //   animationScrollLeft('#block-4');
-      // });
-
-      // $('#block-5').each(function () {
-      //   animationScrollLeft('#block-5');
-      // });
-
-      // $('#block-6').each(function () {
-      //   animationScrollLeft('#block-6');
-      // });
 
       $('#block-7').each(function () {
         animationScroll('#block-7');
@@ -79,25 +67,16 @@ $('#email-input-header').val(widthGlobal);
       });
 
       $('#block-9').each(function () {
-        animationScroll('#block-9');
+        animationScrollLeft('#block-9');
       });
 
-      $('#block-10').each(function () {
-        animationScroll('#block-10');
-      });
-
-      $('#block-11').each(function () {
-        animationScroll('#block-11');
-      });
+     
 
       $('#block-12').each(function () {
         animationScrollLeft('#block-12');
       });
 
-      $('#block-13').each(function () {
-        animationScrollLeft('#block-13');
-      });
-
+      
       $('#block-14').each(function () {
         animationScrollLeft('#block-14');
       });
@@ -111,31 +90,31 @@ $('#email-input-header').val(widthGlobal);
       });
 
       $('#block-17').each(function () {
-        animationScroll('#block-17');
+        animationScrollRight('#block-17');
       });
 
       $('#block-18').each(function () {
-        animationScroll('#block-18');
+        animationScrollLeft('#block-18');
       });
 
       $('#block-19').each(function () {
-        animationScroll('#block-19');
+        animationScrollRight('#block-19');
       });
 
       $('#block-20').each(function () {
-        animationScroll('#block-20');
+        animationScrollLeft('#block-20');
       });
 
       $('#block-21').each(function () {
-        animationScroll('#block-21');
+        animationScrollRight('#block-21');
       });
 
       $('#block-22').each(function () {
-        animationScroll('#block-22');
+        animationScrollLeft('#block-22');
       });
 
       $('#block-23').each(function () {
-        animationScrollLeft('#block-23');
+        animationScrollRight('#block-23');
       });
 
       $('#block-24').each(function () {
@@ -217,4 +196,17 @@ $('#email-input-header').val(widthGlobal);
 
     }
 
+    function animationScrollRight(id) {
+
+      var topOfWindow = $(window).scrollTop(),
+        bottomOfWindow = topOfWindow + $(window).height();
+      var imagePos = $(id).offset().top;
+      if (imagePos <= bottomOfWindow - 100 && imagePos >= topOfWindow - 250) {
+
+        $(id).addClass('slideRight');
+      } else {
+        $(id).removeClass('slideRight');
+      }
+
+    }
   
