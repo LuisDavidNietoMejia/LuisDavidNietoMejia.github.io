@@ -1,0 +1,14 @@
+@font-face {
+  font-family: GlacialIndifferenceBold;
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+.text-motivation{
+  font-family: GlacialIndifferenceBold; 
+  font-size: 26pt;
+  color:white; 
+
+}
+
+
+

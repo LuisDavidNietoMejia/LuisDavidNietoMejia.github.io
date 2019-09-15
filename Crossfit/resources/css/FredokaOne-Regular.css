@@ -1,0 +1,18 @@
+@font-face {
+  font-family: FredokaOneRegular;
+  src: url(../fonts/FredokaOne-Regular.otf);
+}
+
+.text-crossfigther{
+  font-family: FredokaOneRegular;
+  font-size: 40pt;
+  color:#FC6F06;
+}
+
+.text-crossfigther-reverse{
+  
+  font-family: FredokaOneRegular;
+  font-size: 40pt;
+  color:black;
+}
+

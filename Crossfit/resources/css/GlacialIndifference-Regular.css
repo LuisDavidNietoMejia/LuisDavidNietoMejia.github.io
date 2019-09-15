@@ -1,0 +1,11 @@
+@font-face {
+  font-family: GlacialIndifferenceRegular;
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+.text-work-full{
+  font-family: GlacialIndifferenceRegular; 
+  font-size: 20pt;
+  color: rgba(172, 172, 172, 0.993);
+  
+}

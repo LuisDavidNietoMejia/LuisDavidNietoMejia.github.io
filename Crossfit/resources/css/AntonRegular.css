@@ -1,0 +1,47 @@
+@font-face {
+  font-family: AntonRegular;
+  src: url(../fonts/Anton-Regular.ttf);
+}
+
+.text-help-1{
+  font-family: AntonRegular;
+  font-size: 20pt;
+  font-weight: lighter;
+  color:white;
+  text-decoration:none;
+  
+}
+
+.text-help-2{
+  font-family: AntonRegular;
+  font-size: 20pt;
+  font-weight: lighter;
+  color:#FC6F06;
+  text-decoration:none;
+  
+}
+
+.navbar-call{
+  
+  font-family: AntonRegular;
+  font-size: 18pt;
+  color:white;
+  text-decoration:none;
+}
+
+#email-input-header{
+  font-family: AntonRegular;
+  font-weight: lighter;
+}
+#name-input-header{
+  font-family: AntonRegular;
+  font-weight: lighter;
+}
+#box-input-header{
+  font-family: AntonRegular;
+  font-weight: lighter;
+}
+#button-text-submit{
+  font-family: AntonRegular;
+  font-weight: lighter;
+}

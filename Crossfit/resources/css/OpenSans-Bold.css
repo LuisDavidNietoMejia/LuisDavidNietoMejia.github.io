@@ -1,0 +1,106 @@
+@font-face {
+  font-family: OpenSansBold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+.text-true-1 {
+  font-family: OpenSansBold;
+  font-size: 44pt;
+  color: black;
+  padding: -3rem;
+}
+
+.text-true-2 {
+  font-family: OpenSansBold;
+  font-size: 12pt;
+  color: rgb(104, 104, 104);
+}
+
+.text-true-3 {
+  font-family: OpenSansBold;
+  font-size: 14pt;
+  color: rgb(78, 77, 77);
+}
+
+.text-true-4 {
+  font-family: OpenSansBold;
+  font-size: 18pt;
+  color: #5202C4
+}
+
+.showcase-text-true .text-true-1{
+  margin-top:-25px;
+}
+
+.text-motivation10{
+  font-family: OpenSansBold; 
+  font-size: 12pt;
+  color:rgb(92, 91, 94) ; 
+}
+
+.text-convince-1{
+  font-family: OpenSansBold; 
+  font-size: 30pt;
+  color:white; 
+}
+.text-convince-2{
+  font-family: OpenSansBold; 
+  font-size: 30pt;
+  color:#5202C4; 
+}
+.text-convince-3{
+  font-family: OpenSansBold; 
+  font-size: 30pt;
+  color:#FC6F06; 
+}
+.text-convince-6{
+  font-family: OpenSansBold; 
+  font-size: 16pt;
+  color:#5202C4; 
+}
+.text-convince-7{
+  font-family: OpenSansBold; 
+  font-size: 26pt;
+  color:#FC6F06; 
+}
+
+.text-you-know-you-are-1{
+  font-family: OpenSansBold; 
+  font-size: 46pt;
+  color: black; 
+  margin-top: -30px;
+}
+
+.text-you-know-you-are-1{
+  font-family: OpenSansBold; 
+  font-size: 46pt;
+  color: black; 
+  margin-top: -30px;
+}
+
+.text-you-know-you-are-2{
+  font-family: OpenSansBold; 
+  font-size: 16pt;
+  color:rgb(92, 91, 94); 
+  margin-top: -15px;
+}
+.text-you-know-you-are-3{
+  font-family: OpenSansBold; 
+  font-size: 18pt;
+  color:#FC6F06;
+  margin-top: -15px;
+}
+.text-you-know-you-are-4{
+  font-family: OpenSansBold; 
+  font-size: 15pt;
+  color: rgb(156, 154, 154);
+  margin-top: -15px;
+}
+
+.text-tools{
+  font-family: OpenSansBold; 
+  font-size: 27pt;
+  color:white; 
+  margin: 6px; 
+}
+

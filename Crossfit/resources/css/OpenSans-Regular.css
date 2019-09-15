@@ -1,0 +1,18 @@
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+.text-convince-4{
+  font-family: OpenSansRegular; 
+  font-size: 30pt;
+  font-weight: bold;
+  color:white; 
+}
+
+.text-convince-5{
+  font-family: OpenSansRegular; 
+  font-size: 16pt;  
+  font-weight: bold;
+  color:white; 
+}

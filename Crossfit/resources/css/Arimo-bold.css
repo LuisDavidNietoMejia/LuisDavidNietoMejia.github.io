@@ -1,0 +1,11 @@
+@font-face {
+  font-family: ArimoBold;
+  src: url(../fonts/Arimo-Bold.ttf);
+}
+
+.checkbox-font{
+  font-family: ArimoBold; 
+  font-size: 12pt;
+  color:white; 
+}
+

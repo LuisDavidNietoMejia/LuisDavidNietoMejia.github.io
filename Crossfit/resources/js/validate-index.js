@@ -1,4 +1,3 @@
-//formulario contacto footer:
 
 $("#button-contact-form-info").click(function () {
 
@@ -7,23 +6,23 @@ $("#button-contact-form-info").click(function () {
     var phone = $('#input-contact-form-phone').val();
 
     if (name == "") {
-        alert('Campo name vacio!')
+        toastr.warning('Campo nombre vacio!');
         return;
     }
     if (email == "") {
-        alert('Campo email vacio!')
+        toastr.warning('Campo email vacio!');
         return;
     }
     if (phone == "") {
-        alert('Campo telefono vacio!')
+        toastr.warning('Campo telefono vacio!');
         return;
     }
 
     if (validateEmail(email)) {
         if (validateString(name, 'nombre')) {
             if (validatePhone(phone)) {
-                alert('llamar operacion asincrona: ajax o axios;')
-                alert('data: email: ' + email + ', nombre: ' + name + ', phone: ' + phone)
+                toastr.success('llamar operacion asincrona: ajax o axios;');
+                toastr.success('data: email: ' + email + ', nombre: ' + name + ', phone: ' + phone);
             }
         }
     }
@@ -48,7 +47,7 @@ $("#button-email-header").click(function () {
             }
         });
     } else {
-        alert('Campo email vacio!')
+        toastr.warning('Campo email vacio!');
     }
 
 });
@@ -77,7 +76,7 @@ $("#button-name-header").click(function () {
             });
         }
     } else {
-        alert('Campo nombre vacio!')
+        toastr.warning('Campo nombre vacio!');
     }
 
 });
@@ -92,9 +91,9 @@ $("#button-box-header-box").click(function () {
 
     if (box != "") {
         //llamada a ajax o axios;        
-        alert('llamar operacion asincrona: ajax o axios;')
-        alert('data: email: ' + email + ', nombre: ' + name + ', box: ' + box)
-
+        toastr.success('llamar operacion asincrona: ajax o axios;');
+        toastr.success('data: email: ' + email + ', nombre: ' + name + ', box: ' + box);
+  
         let valoresCheck = [];
 
         $("input[type=checkbox]:checked").each(function () {
@@ -104,12 +103,10 @@ $("#button-box-header-box").click(function () {
         });
 
         for (i in valoresCheck) {
-            alert('checkbox: ' + valoresCheck[i]);
+            toastr.success('checkbox: ' + valoresCheck[i]);
         }
-
-
     } else {
-        alert('Campo box vacio!')
+        toastr.warning('Campo box vacio!');
     }
 
 });
@@ -123,9 +120,9 @@ $("#button-box-header").click(function () {
 
     if (box != "") {
         //llamada a ajax o axios;        
-        alert('llamar operacion asincrona: ajax o axios;')
-        alert('data: email: ' + email + ', nombre: ' + name + ', box: ' + box)
-
+        toastr.success('llamar operacion asincrona: ajax o axios;');
+        toastr.success('data: email: ' + email + ', nombre: ' + name + ', box: ' + box);
+  
         let valoresCheck = [];
 
         $("input[type=checkbox]:checked").each(function () {
@@ -135,12 +132,10 @@ $("#button-box-header").click(function () {
         });
 
         for (i in valoresCheck) {
-            alert('checkbox: ' + valoresCheck[i]);
+            toastr.success('checkbox: ' + valoresCheck[i]);
         }
-
-
     } else {
-        alert('Campo box vacio!')
+        toastr.warning('Campo box vacio!');
     }
 
 });
@@ -156,7 +151,7 @@ function validateEmail(email) {
         return true;
 
     } else {
-        alert('Correo no valido');
+        toastr.warning('Por favor coloque un correo valido!');
         return false;
     }
 
@@ -168,9 +163,8 @@ function validateString(string, input) {
 
     if (regex.test(string)) {
         return true;
-
     } else {
-        alert('El campo ' + input + ' tiene caracteres invalidos, solo letras y mayor a 4 caracteres');
+        toastr.warning('El campo ' + input + ' tiene caracteres invalidos, solo letras y mayor a 4 caracteres, sin espacios en blanco');
         return false;
     }
 }
@@ -181,9 +175,8 @@ function validatePhone(string) {
 
     if (regex.test(string)) {
         return true;
-
     } else {
-        alert('El campo telefono deberia ser un telefono valido, ejemplo +56 90000000');
+        toastr.warning('El campo telefono deberia ser un telefono valido, ejemplo +56 90000000');
         return false;
     }
 }
