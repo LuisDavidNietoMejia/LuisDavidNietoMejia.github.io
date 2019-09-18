@@ -10,17 +10,21 @@
   padding: -3rem;
 }
 
+
+
 .text-true-2 {
   font-family: OpenSansBold;
   font-size: 12pt;
-  color: rgb(104, 104, 104);
+  font-weight: bold;
+  color: rgb(78, 77, 77);
 }
 
 .text-true-3 {
   font-family: OpenSansBold;
-  font-size: 14pt;
-  color: rgb(78, 77, 77);
+  font-size: 15pt;
+  color: rgb(122, 117, 117);
 }
+
 
 .text-true-4 {
   font-family: OpenSansBold;
@@ -80,21 +84,21 @@
 
 .text-you-know-you-are-2{
   font-family: OpenSansBold; 
-  font-size: 16pt;
+  font-size: 15pt;
   color:rgb(92, 91, 94); 
-  margin-top: -15px;
+  margin-bottom: -3px;
 }
 .text-you-know-you-are-3{
   font-family: OpenSansBold; 
   font-size: 18pt;
   color:#FC6F06;
-  margin-top: -15px;
+
 }
 .text-you-know-you-are-4{
   font-family: OpenSansBold; 
-  font-size: 15pt;
+  font-size: 13pt;
   color: rgb(156, 154, 154);
-  margin-top: -15px;
+  
 }
 
 .text-tools{
